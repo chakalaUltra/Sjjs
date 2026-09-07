@@ -1,15 +1,2 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
-client.on('ready', () => {
-  console.log('I am ready');
-});
-
-client.on('message', (message) => {
-  if (message.author.bot) return;
-  if (message.content === '!hello') {
-    message.reply('Hello!');
-  }
-});
-
-client.login(process.env.BOT_TOKEN);
+// Export the public API from src/randomUtil.js
+module.exports = require('./src/randomUtil');

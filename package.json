@@ -1,10 +1,16 @@
 {
-  "name": "discord-bot",
+  "name": "sjjs",
   "version": "1.0.0",
+  "description": "A tiny random utility library",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "node test.js"
   },
-  "dependencies": {
-    "discord.js": "^13.1.0"
-  }
+  "keywords": [
+    "random",
+    "utility",
+    "javascript"
+  ],
+  "author": "chakalaUltra",
+  "license": "MIT"
 }
